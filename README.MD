@@ -7,11 +7,13 @@
     1.  Download the source data from this URL into a folder on your local drive, say "C:\Users\yourname\Documents\R\"
 <http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> 
     
-    2.  When you unzip, it will create a folder structure called "UCI HAR Dataset" under this .\R Folder
+    2.  When you unzip, it will create a folder structure called "UCI HAR Dataset" 
+        under this .\R Folder
     
     3.  Put run_analysis.R into this same .\R folder 
     
     4.  From the R Console:
+    
 ```{r}
           setwd("C:\Users\yourname\Documents\R\")
           source("run_Analysis.R")
