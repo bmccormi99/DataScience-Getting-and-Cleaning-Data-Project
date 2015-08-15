@@ -4,13 +4,14 @@
 ##  
 **This assumes you can download the source zip file, place it in a folder, unzip and follow these instructions. These instructions were performed on Win8 and Win10 machines.  Those with other operating systems are assumed to be able to make the appropriate adjustments.**
 
-    1.  Download the source data from this URL into a folder on your local drive, say "C:\Users\yourname\Documents\R\"
+    1.  Download the source data from this URL into a folder on your local drive, 
+        For example:  "C:\Users\yourname\Documents\R\"
 <http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> 
     
     2.  When you unzip, it will create a folder structure called "UCI HAR Dataset" 
         under this .\R Folder
     
-    3.  Put run_analysis.R into this same .\R folder 
+    3.  Put run_analysis.R into this same .\R folder as step 1. 
     
     4.  From the R Console:
     
