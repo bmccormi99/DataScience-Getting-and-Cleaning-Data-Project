@@ -1,0 +1,5 @@
+*.Rhistory
+UCI HAR Dataset/*.*
+UCI HAR Dataset/activity_labels.txt
+UCI HAR Dataset/features.txt
+*.zip
