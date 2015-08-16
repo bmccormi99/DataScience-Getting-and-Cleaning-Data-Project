@@ -99,7 +99,7 @@ activity2 <- activity2[,-1]
 tidyData <- aggregate(activity2[,names(activity2) != c('activityType','Subject')],by=list(activityType=activity2$activityType,Subject = activity2$Subject),mean); 
 
 ## setup the output file folder/name
-tidyDataFileOutTxt <- "tidyUCI-HAR-datasetAVG.txt"
+tidyDataFileOutTxt <- "tidyData.txt"
 tidyDataFileOutTxt  <- paste(destdir,"/" ,tidyDataFileOutTxt , sep="")
 
 ## write out the output file
@@ -108,4 +108,4 @@ write.table(tidyData, tidyDataFileOutTxt,row.names=FALSE,sep='\t')
 
 print("D O N E ... tidy data file is here:  ")
 print (tidyDataFileOutTxt)
-## the final tidy data file should be in:  UCI HAR Dataset/tidyUCI-HAR-datasetAVG.txt
+## the final tidy data file should be in:  UCI HAR Dataset/tidyData.txt

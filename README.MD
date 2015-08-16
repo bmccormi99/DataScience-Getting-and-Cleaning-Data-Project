@@ -20,7 +20,7 @@
           source("run_Analysis.R")
 ```
     5.  This will run the R script, complete the 5 steps of the project, eventually 
-        writing a file called:  ./UCI HAR Dataset/tidyUCI-HAR-datasetAVG.txt
+        writing a file called:  ./UCI HAR Dataset/tidyData.txt
         
 I decided to make it a tab delimited txt file - many in my circles would import this into excel to test and tab delimited works well for this.
 
